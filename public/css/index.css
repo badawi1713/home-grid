@@ -80,9 +80,14 @@ header {
 }
 
 .input-rgb > input {
+  padding-left: 15px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #000;
   text-align: center;
   background-color: transparent;
-  border: none;
+  /* color: #fff; */
   font-size: 20pt;
   width: 85px;
 }
